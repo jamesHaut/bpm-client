@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14A389" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CompanyInfo" syncable="YES">
+        <attribute name="company_logo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="company_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="company_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="server_url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserInfo" syncable="YES">
+        <attribute name="descr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detail_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="nick" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CompanyInfo" positionX="-54" positionY="-9" width="128" height="105"/>
+        <element name="UserInfo" positionX="-36" positionY="36" width="128" height="135"/>
+    </elements>
+</model>
